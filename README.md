@@ -13,5 +13,7 @@ Once you have decided to open the FreshDeskSupport window, call to
 
             Mobihelp.SharedInstance().PresentSupport(this);
 
+Finally, add the resoures (.bundle) that exist in the SDK to your resources folder.
+You can find the SDK here: https://s3.amazonaws.com/assets.mobihelp.freshpo.com/sdk/mobihelp_sdk_ios.zip
            
 That's it!
