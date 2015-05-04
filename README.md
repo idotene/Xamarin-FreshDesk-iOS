@@ -9,7 +9,9 @@ In your AppDelegate, FinishedLaunching method, add this code:
             Mobihelp mobileHelp = new Mobihelp();
             mobileHelp.InitWithConfig(config);
             
-Once you have decided to open the FreshDeskSupport window, call to 
-           Mobihelp.SharedInstance().PresentSupport(this);
+Once you have decided to open the FreshDeskSupport window, call to
+
+            Mobihelp.SharedInstance().PresentSupport(this);
+
            
 That's it!
